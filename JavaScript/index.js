@@ -23,9 +23,6 @@ function addTask(){
   saveData();
 }
 
-
-
-
 listContainer.addEventListener("click", function(e){
   //checks if the clicked element is an '<li>' (list item) element
   if(e.target.tagName === "LI"){
@@ -50,7 +47,6 @@ function showTask(){
 }
 showTask();
 
-
 //e.target:-this property represents the element that triggered the event
 //tagName:- this property returns the tag name of the element in UpperCase letters.
-//toggle:-generally means to switch between two states or options, for eg:- switching light on if it is off and off if it is on. 
+//toggle:-generally means to switch between two states or options, for eg:- switching light on if it is off and off if it is on.
